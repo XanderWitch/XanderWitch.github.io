@@ -19,17 +19,17 @@ h1, h2, h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+    }
     .hero::before {
         content: "";
-        background-image: url('Background_DP.jpg');
+        background-image: url('Background_DP.jpg') !important;
         background-size: cover;
         position: absolute;
         top: 0px;
         right: 0px;
         bottom: 0px;
         left: 0px;
-        opacity: 0.5;
+        opacity: 0.05;
     }
 
 
