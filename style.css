@@ -1,34 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
 
-
 body {
-    margin: 0 0;
-    font-family: 'Open Sans',
-    sans-serif;
-    background-color: #2b2d2f;
-    width:100%;
-    color: silver;
-  }
+	margin: 0 0;
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	color: #2b2d2f;
+}
 
-
-h1, h2, h3 {
-    color: cyan;
-    font-weight: 500;
-    
-    }
+h1,
+h2,
+h3 {
+	color: indigo;
+	font-weight: 500;
+}
 
 p {
-    font-weight: 400;
-    font-size: 1.05em;
+	font-weight: 400;
+	font-size: 1.05em;
 }
 
 a {
-    color: lightblue;
-    text-decoration: none;
+	color: blue;
+	text-decoration: none;
 }
 
 a:hover {
-    color: lightcoral;
+	color: greenyellow;
 }
-
-
