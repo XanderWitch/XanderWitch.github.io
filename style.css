@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body {
-	margin: 0 0;
 	font-family: 'PT Sans', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	width: 100%;
 	color: #2b2d2f;
+	overflow-x: hidden;
 }
 
 .navbar {
@@ -13,11 +16,21 @@ body {
 	font-size: 1.2em;
 }
 
+.bodydiv {
+	width: 90%;
+}
+
 h1,
 h2,
-h3 {
-	color: indigo;
-	font-weight: 700;
+h3,
+h4 {
+	margin-bottom: 2%;
+}
+
+img {
+	width: 30vw;
+	margin-top: 15px;
+	margin-bottom: 25px;
 }
 
 p,
@@ -25,6 +38,21 @@ ul,
 ol {
 	font-weight: 400;
 	font-size: 1.3em;
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	list-style-type: none;
+	width: 60vw;
+}
+
+li {
+	margin-bottom: 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 p.first {
@@ -38,4 +66,19 @@ a {
 
 a:hover {
 	color: coral;
+}
+
+@media (max-width: 750px) {
+	body {
+		flex-direction: column;
+	}
+
+	li {
+		display: flex;
+		flex-direction: column;
+	}
+
+	img {
+		width: 75vw;
+	}
 }
